@@ -37,7 +37,7 @@ const Login = (props) => {
     event.preventDefault();
     props.onLogin(enteredEmail, enteredPassword);
   };
-  //ad
+
   return (
     <Card className={classes.login}>
       <form onSubmit={submitHandler}>
